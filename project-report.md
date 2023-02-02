@@ -47,7 +47,7 @@ I would also change other hyperparameters to see which will be the best for this
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score_1.png](img/model_test_score_1.png)
 
 ## Summary
 This is a great project, that helped me understand how adding new features or changing them can significantly change the model. This is great dataset to have a better understanding of machine learning basics.
