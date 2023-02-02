@@ -8,7 +8,7 @@ First time I submitted predictions I realized that including "datetime" column a
 ### What was the top ranked model that performed?
 After training a model using AutoGluon’s Tabular Prediction it appears that the best model for this problem is WeightedEnsemble_L3. The score value is the highest one.
 
-[leaderboard_1st_submission.png](img/leaderboard_1st_submission.png)
+![leaderboard_1st_submission.png](img/leaderboard_1st_submission.png)
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -19,7 +19,7 @@ I've created additional feature by changing "datetime" column to datetime format
 
 After adding new feature, still the best model was WeightedEnsemble_L3.  Score value in this case was: -94.640347.
 
-[leaderboard_new_features.png](img/leaderboard_new_features.png)
+![leaderboard_new_features.png](img/leaderboard_new_features.png)
 
 Adding the feature such as hour was a significant change, as an hour has a huge impact on how many bicycles are rented so this feature is very important.
 I think this is much better visible how model performed by compering Kaggle score shown in the last plot.
